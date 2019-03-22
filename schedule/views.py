@@ -94,3 +94,66 @@ def check_shift(now_datetime, now_time, now_day, now_weekday, shift):
         return False,""
 register_events(scheduler)
 scheduler.start()
+
+
+def handle_excel(file_name, flag=1):
+    """
+    :description 整理Excel表格获取排班信息
+    :param file_name:
+    :param flag:
+    :return:
+    """
+    bk = xlrd.open_workbook(file_name)
+    table = bk.sheet_by_name("Sheet1")
+    date_list = table.row_values(0, start_colx=3)
+    ncols = table.ncols - 3
+    schedule_list = []
+    if flag == 0:
+        models.Schedule.objects.all().delete()
+    print("===========")
+    for col in range(ncols):
+        user_type = table.col_values(0, start_rowx=2, end_rowx=None)  # 获取用户组信息
+        user = table.col_values(1, start_rowx=2, end_rowx=None)  # 获取操作人员信息
+        schedule = table.col_values(col + 3, start_rowx=2, end_rowx=None)  # 获取排班信息
+        date_now = date(1899, 12, 30) + timedelta(days=int(date_list[col]))
+        for idx in range(len(user)):
+            if schedule[idx] != "休" and schedule[idx]:
+                try:
+                    username = models.Operator.objects.get(username=user[idx].strip())
+                    if username.team != user_type[idx].strip():
+                        username.team = user_type[idx].strip()
+                        username.save()
+                    schedule_name = models.Shift.objects.get(name=schedule[idx])  # 获取排班信息
+                    if username and schedule_name:
+                        start, end = getStartAndEnd(date_now, schedule[idx])
+                        print("success", user[idx], date_now, schedule[idx], start, end)
+                        models.Schedule.objects.create(user=username, schedule_type=schedule_name, start_time=start,
+                                                       end_time=end, enabled=1)  # 新增排班信息
+                except:
+                    print("fail", user[idx], date_now, schedule[idx])
+
+                    pass
+
+
+
+def upload_file(request):
+    """
+    上传文件的request方法
+    :param request:
+    :return:
+    """
+    print("upload_file")
+    if request.method == 'POST':
+        form = forms.UploadExcelForm(request.POST, request.FILES)  # 注意获取数据的方式
+        if form.is_valid():
+            # filename = str(request.FILES.get("file_path")[""])
+            # print(filename)
+            for file in os.listdir(MEDIA_ROOT):
+                os.remove(os.path.join(MEDIA_ROOT, file))
+            form.save()
+            flag = form.cleaned_data["flag"]
+            handle_excel(os.path.join(MEDIA_ROOT, os.listdir(MEDIA_ROOT)[0]), flag)
+            return redirect(reverse_lazy('itsm_route:tasks'))
+    else:
+        form = forms.UploadExcelForm()
+    return render(request, template_name='itsm_route/excel.html', context={'form': form})
