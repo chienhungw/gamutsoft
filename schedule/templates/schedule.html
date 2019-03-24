@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th><h2>班次</h2></th>
+                            <th><h2>人员</h2></th>
+                            <th><h2>开始时间</h2></th>
+                            <th><h2>呼叫信息</h2></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        {% for schedule in schedule_list %}
+                            <tr>
+                                <td><h2>{{ schedule.name }}</h2></td>
+                                <td><h2>{{ schedule.operator }}</h2></td>
+                                <td><h2>{{ schedule.start_time }}</h2></td>
+                                <td><h2>{{ schedule.message }}</h2></td>
+
+                            </tr>
+
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+</body>
+</html>

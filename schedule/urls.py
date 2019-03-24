@@ -19,5 +19,8 @@ from schedule import views
 app_name = 'schedule'
 
 urlpatterns = [
-    path('', views.tasks, name='tasks'), 
+    path('', views.tasks, name='tasks'),
+    path('excel', views.upload_file, name="excel"),
+    path('schedule', views.ScheduleView.as_view(), name='schedule'),
+
 ]
