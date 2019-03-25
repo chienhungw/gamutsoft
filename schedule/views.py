@@ -52,6 +52,30 @@ def recount_job():
             scheduler.save()
             # send_message(message)
 
+@register_job(scheduler, "cron", day_of_week='*', hour='*', minute='*', second='0', replace_existing=True)
+def schedule_job():
+    """
+    :return:
+    """
+    now = datetime.now() - timedelta(hours=8)
+    now_datetime = now.strftime("%Y-%m-%d %H:%M")
+    minute = datetime(now.year, now.month, now.day, now.hour, now.minute)
+    now_minute = datetime(now.year, now.month, now.day, now.hour, now.minute) + timedelta(hours=8)
+    print("now date time: %s" % now_datetime)
+    result_list = models.Schedule.objects.filter(start_time=now_minute, enabled=True)
+    print(result_list)
+    for schedule in result_list:
+        print(shift.name)
+        code, message = check_shift(now_datetime, now_time, now_day, now_weekday, shift)
+        if code:
+            schedule_log = models.ScheduleLog(name=schedule.name,
+                                           message=schedule.message,
+                                           operator=schedule.operaotr.name,
+                                           start_time=now,
+                                           description="SUCCESS")
+            schedule_log.save()
+            # send_message(message)
+
 
 def send_message(message):
     webhook = 'https://oapi.dingtalk.com/robot/send?access_token=4da2781e03e662fc358fcd18e57f12355f667ae8c63d5e76f27dab44b4bc521e'
@@ -202,9 +226,10 @@ class ScheduleView(ListView):
 
     def get_queryset(self):
         qs = super(ScheduleView, self).get_queryset()
-        today = datetime.today()
-        tomorrow = datetime.today() + timedelta(days=1)
-        return qs.filter(start_time__gte=today, start_time__lt=tomorrow).order_by("start_time")
+        today = date.today()
+        start_time = datetime(today.year, today.month, today.day)
+        tomorrow = start_time + timedelta(days=1)
+        return qs.filter(start_time__gte=start_time, start_time__lt=tomorrow).order_by("start_time")
 #
 # class ScheduleView(DetailView):
 #     model = models.Schedule

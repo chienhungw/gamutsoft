@@ -48,6 +48,7 @@ class Schedule(models.Model):
 
 class ScheduleLog(models.Model):
     name = models.CharField(max_length=255, verbose_name="班次名")
+    operator = models.CharField(max_length=255, default='auto', null=True)
     start_time = models.DateTimeField(verbose_name="开启时间")
     message = models.CharField(max_length=255, verbose_name="发送信息")
     result = models.BooleanField(default=True, verbose_name="结果")
@@ -68,7 +69,7 @@ class Operator(models.Model):
 class Excel(models.Model):
     filename = models.CharField(max_length=30)
     flag = models.BooleanField(default=True, verbose_name="是否覆盖原有数据")
-    file = models.FileField(upload_to=MEDIA_ROOT, verbose_name="上传的文件")
+    file = models.FileField(upload_to='./media', verbose_name="上传的文件")
 
     # 所以是用upload_to来指定文件存放的前缀路径
 

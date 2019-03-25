@@ -2508,3 +2508,3704 @@ now date time: 2019-03-21 09:29, 2019-03-20 09:15
 A班上班
 测试
 now date time: 2019-03-21 09:29, 2019-03-20 09:15
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 25 09:01:21 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 19 March 2019 09:05:57
+os: Linux-4.19.5-1.el7.elrepo.x86_64 #1 SMP Tue Nov 27 12:40:57 EST 2018
+nodename: host.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/workspace/gamutsoft
+writing pidfile to /usr/local/workspace/gamutsoft/uwsgi.pid
+detected binary path: /usr/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3915
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8088 fd 3
+uwsgi socket 0 bound to UNIX address /usr/local/workspace/gamutsoft/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.5 (default, Oct 30 2018, 23:45:53)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x2264de0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+ImportError: No module named gamutsoft.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28888)
+spawned uWSGI worker 1 (pid: 28889, cores: 1)
+spawned uWSGI worker 2 (pid: 28890, cores: 1)
+spawned uWSGI worker 3 (pid: 28891, cores: 1)
+spawned uWSGI worker 4 (pid: 28892, cores: 1)
+spawned uWSGI worker 5 (pid: 28893, cores: 1)
+spawned uWSGI http 1 (pid: 28894)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 25 09:02:57 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 19 March 2019 09:05:57
+os: Linux-4.19.5-1.el7.elrepo.x86_64 #1 SMP Tue Nov 27 12:40:57 EST 2018
+nodename: host.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/workspace/gamutsoft
+writing pidfile to /usr/local/workspace/gamutsoft/uwsgi.pid
+detected binary path: /usr/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3915
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+probably another instance of uWSGI is running on the same address (127.0.0.1:8088).
+bind(): Address already in use [core/socket.c line 769]
+Mon Mar 25 09:05:56 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 09:05:56 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 09:05:56 2019 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 09:05:56 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 09:05:56 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 25 09:07:24 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 21 March 2019 06:56:07
+os: Linux-4.19.5-1.el7.elrepo.x86_64 #1 SMP Tue Nov 27 12:40:57 EST 2018
+nodename: host.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/workspace/gamutsoft
+writing pidfile to /usr/local/workspace/gamutsoft/uwsgi.pid
+detected binary path: /usr/local/python/envpy3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3915
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8088 fd 3
+uwsgi socket 0 bound to UNIX address /usr/local/workspace/gamutsoft/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Mar 19 2019, 17:14:02)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x111ba40
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'gamutsoft'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28945)
+spawned uWSGI worker 1 (pid: 28946, cores: 1)
+spawned uWSGI worker 2 (pid: 28947, cores: 1)
+spawned uWSGI worker 3 (pid: 28948, cores: 1)
+spawned uWSGI worker 4 (pid: 28949, cores: 1)
+spawned uWSGI worker 5 (pid: 28950, cores: 1)
+spawned uWSGI http 1 (pid: 28951)
+Mon Mar 25 09:08:34 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 09:08:34 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 09:08:34 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 09:08:34 2019 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 09:08:34 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 25 09:08:58 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 21 March 2019 06:56:07
+os: Linux-4.19.5-1.el7.elrepo.x86_64 #1 SMP Tue Nov 27 12:40:57 EST 2018
+nodename: host.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/workspace/gamutsoft
+writing pidfile to /usr/local/workspace/gamutsoft/uwsgi.pid
+detected binary path: /usr/local/python/envpy3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3915
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8088 fd 3
+uwsgi socket 0 bound to UNIX address /usr/local/workspace/gamutsoft/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Mar 19 2019, 17:14:02)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x2347a40
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2347a40 pid: 28959 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28959)
+spawned uWSGI worker 1 (pid: 28961, cores: 1)
+spawned uWSGI worker 2 (pid: 28962, cores: 1)
+spawned uWSGI worker 3 (pid: 28963, cores: 1)
+spawned uWSGI worker 4 (pid: 28964, cores: 1)
+spawned uWSGI worker 5 (pid: 28965, cores: 1)
+spawned uWSGI http 1 (pid: 28966)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+[pid: 28961|app: 0|req: 1/1] 127.0.0.1 () {30 vars in 337 bytes} [Mon Mar 25 09:10:00 2019] GET / => generated 21 bytes in 772 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+now date time: 2019-03-25 01:11
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:11, 2019-03-20 09:15
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+[pid: 28963|app: 0|req: 1/2] 127.0.0.1 () {30 vars in 337 bytes} [Mon Mar 25 09:11:34 2019] GET / => generated 21 bytes in 524 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+now date time: 2019-03-25 01:12
+now date time: 2019-03-25 01:12
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:12, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 01:12, 2019-03-20 09:15
+now date time: 2019-03-25 01:13
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:13, 2019-03-20 09:15
+now date time: 2019-03-25 01:14
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:14, 2019-03-20 09:15
+now date time: 2019-03-25 01:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:15, 2019-03-20 09:15
+now date time: 2019-03-25 01:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:16, 2019-03-20 09:15
+now date time: 2019-03-25 01:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:16, 2019-03-20 09:15
+now date time: 2019-03-25 01:17
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:17, 2019-03-20 09:15
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+[pid: 28962|app: 0|req: 1/3] 127.0.0.1 () {30 vars in 337 bytes} [Mon Mar 25 09:18:07 2019] GET / => generated 21 bytes in 625 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+now date time: 2019-03-25 01:19
+now date time: 2019-03-25 01:19
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:19, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 01:19, 2019-03-20 09:15
+now date time: 2019-03-25 01:19
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:19, 2019-03-20 09:15
+now date time: 2019-03-25 01:20
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:20, 2019-03-20 09:15
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+[pid: 28964|app: 0|req: 1/4] 127.0.0.1 () {56 vars in 1247 bytes} [Mon Mar 25 09:20:44 2019] GET / => generated 21 bytes in 613 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+[pid: 28965|app: 0|req: 1/5] 127.0.0.1 () {56 vars in 1247 bytes} [Mon Mar 25 09:20:51 2019] GET / => generated 21 bytes in 667 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 28961|app: 0|req: 2/6] 127.0.0.1 () {54 vars in 1226 bytes} [Mon Mar 25 09:20:57 2019] GET /admin => generated 0 bytes in 4 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 28963|app: 0|req: 2/7] 127.0.0.1 () {54 vars in 1226 bytes} [Mon Mar 25 09:20:57 2019] GET /admin/ => generated 0 bytes in 73 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 28962|app: 0|req: 2/8] 127.0.0.1 () {54 vars in 1264 bytes} [Mon Mar 25 09:20:58 2019] GET /admin/login/?next=/admin/ => generated 1821 bytes in 138 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+now date time: 2019-03-25 01:21
+now date time: 2019-03-25 01:21
+now date time: 2019-03-25 01:21
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:21, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:21, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:21, 2019-03-20 09:15
+now date time: 2019-03-25 01:22
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:22, 2019-03-20 09:15
+now date time: 2019-03-25 01:22
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:22, 2019-03-20 09:15
+now date time: 2019-03-25 01:22
+now date time: 2019-03-25 01:22
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:22, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:22, 2019-03-20 09:15
+now date time: 2019-03-25 01:23
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:23, 2019-03-20 09:15
+now date time: 2019-03-25 01:24
+now date time: 2019-03-25 01:24
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:24, 2019-03-20 09:15
+now date time: 2019-03-25 01:24
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:24, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 01:24, 2019-03-20 09:15
+now date time: 2019-03-25 01:24
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:24, 2019-03-20 09:15
+now date time: 2019-03-25 01:25
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:25, 2019-03-20 09:15
+now date time: 2019-03-25 01:26
+now date time: 2019-03-25 01:26
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:26, 2019-03-20 09:15
+now date time: 2019-03-25 01:26
+now date time: 2019-03-25 01:26
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:26, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:26, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 01:26, 2019-03-20 09:15
+now date time: 2019-03-25 01:27
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:27, 2019-03-20 09:15
+now date time: 2019-03-25 01:27
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:27, 2019-03-20 09:15
+now date time: 2019-03-25 01:28
+now date time: 2019-03-25 01:28
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:28, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 01:28, 2019-03-20 09:15
+now date time: 2019-03-25 01:28
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:28, 2019-03-20 09:15
+now date time: 2019-03-25 01:29
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:29, 2019-03-20 09:15
+now date time: 2019-03-25 01:30
+now date time: 2019-03-25 01:30
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+A班上班
+now date time: 2019-03-25 01:30, 2019-03-20 09:15
+测试
+now date time: 2019-03-25 01:30, 2019-03-20 09:15
+now date time: 2019-03-25 01:30
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:30, 2019-03-20 09:15
+now date time: 2019-03-25 01:30
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:30, 2019-03-20 09:15
+now date time: 2019-03-25 01:31
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:31, 2019-03-20 09:15
+now date time: 2019-03-25 01:32
+now date time: 2019-03-25 01:32
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:32, 2019-03-20 09:15
+A班上班
+now date time: 2019-03-25 01:32
+测试
+now date time: 2019-03-25 01:32, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:32, 2019-03-20 09:15
+now date time: 2019-03-25 01:32
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:32, 2019-03-20 09:15
+now date time: 2019-03-25 01:33
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:33, 2019-03-20 09:15
+now date time: 2019-03-25 01:34
+now date time: 2019-03-25 01:34
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:34, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 01:34
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:34, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 01:34, 2019-03-20 09:15
+now date time: 2019-03-25 01:35
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:35, 2019-03-20 09:15
+now date time: 2019-03-25 01:36
+now date time: 2019-03-25 01:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+测试
+now date time: 2019-03-25 01:36, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 01:36, 2019-03-20 09:15
+now date time: 2019-03-25 01:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:36, 2019-03-20 09:15
+now date time: 2019-03-25 01:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:36, 2019-03-20 09:15
+now date time: 2019-03-25 01:37
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:37, 2019-03-20 09:15
+now date time: 2019-03-25 01:38
+now date time: 2019-03-25 01:38
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:38, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 01:38, 2019-03-20 09:15
+now date time: 2019-03-25 01:38
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:38, 2019-03-20 09:15
+now date time: 2019-03-25 01:38
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:38, 2019-03-20 09:15
+now date time: 2019-03-25 01:39
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:39, 2019-03-20 09:15
+now date time: 2019-03-25 01:40
+now date time: 2019-03-25 01:40
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:40, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:40, 2019-03-20 09:15
+now date time: 2019-03-25 01:41
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:41, 2019-03-20 09:15
+now date time: 2019-03-25 01:42
+now date time: 2019-03-25 01:42
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:42, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:42, 2019-03-20 09:15
+now date time: 2019-03-25 01:43
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:43, 2019-03-20 09:15
+now date time: 2019-03-25 01:44
+now date time: 2019-03-25 01:44
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:44, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:44, 2019-03-20 09:15
+now date time: 2019-03-25 01:45
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:45, 2019-03-20 09:15
+now date time: 2019-03-25 01:46
+now date time: 2019-03-25 01:46
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:46, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:46, 2019-03-20 09:15
+now date time: 2019-03-25 01:47
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:47, 2019-03-20 09:15
+now date time: 2019-03-25 01:48
+now date time: 2019-03-25 01:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:48, 2019-03-20 09:15
+now date time: 2019-03-25 01:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:48, 2019-03-20 09:15
+now date time: 2019-03-25 01:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:48, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:48, 2019-03-20 09:15
+now date time: 2019-03-25 01:49
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:49, 2019-03-20 09:15
+now date time: 2019-03-25 01:50
+now date time: 2019-03-25 01:50
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:50, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:50, 2019-03-20 09:15
+now date time: 2019-03-25 01:51
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:51, 2019-03-20 09:15
+now date time: 2019-03-25 01:52
+now date time: 2019-03-25 01:52
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+A班上班
+测试
+测试
+now date time: 2019-03-25 01:52, 2019-03-20 09:15
+now date time: 2019-03-25 01:52, 2019-03-20 09:15
+now date time: 2019-03-25 01:53
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:53, 2019-03-20 09:15
+now date time: 2019-03-25 01:54
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:54, 2019-03-20 09:15
+now date time: 2019-03-25 01:55
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:55, 2019-03-20 09:15
+now date time: 2019-03-25 01:56
+now date time: 2019-03-25 01:56
+now date time: 2019-03-25 01:56
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:56, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:56, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:56, 2019-03-20 09:15
+now date time: 2019-03-25 01:57
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:57, 2019-03-20 09:15
+now date time: 2019-03-25 01:58
+now date time: 2019-03-25 01:58
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:58, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:58, 2019-03-20 09:15
+now date time: 2019-03-25 01:59
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 01:59, 2019-03-20 09:15
+now date time: 2019-03-25 02:00
+now date time: 2019-03-25 02:00
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:00, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:00, 2019-03-20 09:15
+now date time: 2019-03-25 02:01
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:01, 2019-03-20 09:15
+now date time: 2019-03-25 02:02
+now date time: 2019-03-25 02:02
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:02, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:02, 2019-03-20 09:15
+now date time: 2019-03-25 02:03
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:03, 2019-03-20 09:15
+now date time: 2019-03-25 02:04
+now date time: 2019-03-25 02:04
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:04, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 02:04, 2019-03-20 09:15
+now date time: 2019-03-25 02:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:05, 2019-03-20 09:15
+now date time: 2019-03-25 02:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:05, 2019-03-20 09:15
+now date time: 2019-03-25 02:06
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:06, 2019-03-20 09:15
+now date time: 2019-03-25 02:07
+now date time: 2019-03-25 02:07
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:07, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:07, 2019-03-20 09:15
+now date time: 2019-03-25 02:08
+now date time: 2019-03-25 02:08
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+A班上班
+now date time: 2019-03-25 02:08, 2019-03-20 09:15
+测试
+now date time: 2019-03-25 02:08, 2019-03-20 09:15
+now date time: 2019-03-25 02:09
+now date time: 2019-03-25 02:09
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:09, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:09, 2019-03-20 09:15
+now date time: 2019-03-25 02:10
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:10, 2019-03-20 09:15
+now date time: 2019-03-25 02:11
+now date time: 2019-03-25 02:11
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:11, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:11, 2019-03-20 09:15
+now date time: 2019-03-25 02:12
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:12, 2019-03-20 09:15
+now date time: 2019-03-25 02:13
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:13, 2019-03-20 09:15
+now date time: 2019-03-25 02:13
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:13, 2019-03-20 09:15
+now date time: 2019-03-25 02:14
+now date time: 2019-03-25 02:14
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:14, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:14, 2019-03-20 09:15
+now date time: 2019-03-25 02:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:15, 2019-03-20 09:15
+now date time: 2019-03-25 02:16
+now date time: 2019-03-25 02:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:16, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:16, 2019-03-20 09:15
+now date time: 2019-03-25 02:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:16, 2019-03-20 09:15
+now date time: 2019-03-25 02:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:16, 2019-03-20 09:15
+now date time: 2019-03-25 02:17
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:17, 2019-03-20 09:15
+now date time: 2019-03-25 02:18
+now date time: 2019-03-25 02:18
+now date time: 2019-03-25 02:18
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:18, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:18, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:18, 2019-03-20 09:15
+now date time: 2019-03-25 02:19
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:19, 2019-03-20 09:15
+now date time: 2019-03-25 02:20
+now date time: 2019-03-25 02:20
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:20, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:20, 2019-03-20 09:15
+now date time: 2019-03-25 02:21
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:21, 2019-03-20 09:15
+now date time: 2019-03-25 02:22
+now date time: 2019-03-25 02:22
+now date time: 2019-03-25 02:22
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:22, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:22, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:22, 2019-03-20 09:15
+now date time: 2019-03-25 02:23
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:23, 2019-03-20 09:15
+now date time: 2019-03-25 02:24
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:24, 2019-03-20 09:15
+now date time: 2019-03-25 02:25
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:25, 2019-03-20 09:15
+now date time: 2019-03-25 02:26
+now date time: 2019-03-25 02:26
+now date time: 2019-03-25 02:26
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:26, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:26, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 02:26, 2019-03-20 09:15
+now date time: 2019-03-25 02:27
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:27, 2019-03-20 09:15
+now date time: 2019-03-25 02:28
+now date time: 2019-03-25 02:28
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:28, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:28, 2019-03-20 09:15
+now date time: 2019-03-25 02:29
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:29, 2019-03-20 09:15
+now date time: 2019-03-25 02:30
+now date time: 2019-03-25 02:30
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:30, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:30, 2019-03-20 09:15
+now date time: 2019-03-25 02:31
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:31, 2019-03-20 09:15
+now date time: 2019-03-25 02:32
+now date time: 2019-03-25 02:32
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:32, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:32, 2019-03-20 09:15
+now date time: 2019-03-25 02:33
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:33, 2019-03-20 09:15
+now date time: 2019-03-25 02:34
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:34, 2019-03-20 09:15
+now date time: 2019-03-25 02:35
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:35, 2019-03-20 09:15
+now date time: 2019-03-25 02:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:36, 2019-03-20 09:15
+now date time: 2019-03-25 02:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:36, 2019-03-20 09:15
+now date time: 2019-03-25 02:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 02:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:36, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 02:36, 2019-03-20 09:15
+now date time: 2019-03-25 02:37
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:37, 2019-03-20 09:15
+now date time: 2019-03-25 02:38
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:38, 2019-03-20 09:15
+now date time: 2019-03-25 02:39
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:39, 2019-03-20 09:15
+now date time: 2019-03-25 02:40
+now date time: 2019-03-25 02:40
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:40, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:40, 2019-03-20 09:15
+now date time: 2019-03-25 02:41
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:41, 2019-03-20 09:15
+now date time: 2019-03-25 02:42
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 02:42
+A班上班
+测试
+now date time: 2019-03-25 02:42, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:42, 2019-03-20 09:15
+now date time: 2019-03-25 02:42
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:42, 2019-03-20 09:15
+now date time: 2019-03-25 02:42
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:42, 2019-03-20 09:15
+now date time: 2019-03-25 02:43
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:43, 2019-03-20 09:15
+now date time: 2019-03-25 02:44
+now date time: 2019-03-25 02:44
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:44, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:44, 2019-03-20 09:15
+now date time: 2019-03-25 02:45
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:45, 2019-03-20 09:15
+now date time: 2019-03-25 02:46
+now date time: 2019-03-25 02:46
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:46, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:46, 2019-03-20 09:15
+now date time: 2019-03-25 02:47
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:47, 2019-03-20 09:15
+now date time: 2019-03-25 02:48
+now date time: 2019-03-25 02:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:48, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:48, 2019-03-20 09:15
+now date time: 2019-03-25 02:49
+now date time: 2019-03-25 02:49
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:49, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:49, 2019-03-20 09:15
+now date time: 2019-03-25 02:50
+now date time: 2019-03-25 02:50
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:50, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:50, 2019-03-20 09:15
+now date time: 2019-03-25 02:51
+now date time: 2019-03-25 02:51
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:51, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 02:51, 2019-03-20 09:15
+now date time: 2019-03-25 02:52
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:52, 2019-03-20 09:15
+now date time: 2019-03-25 02:53
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:53, 2019-03-20 09:15
+now date time: 2019-03-25 02:53
+now date time: 2019-03-25 02:53
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:53, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 02:53, 2019-03-20 09:15
+now date time: 2019-03-25 02:53
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:53, 2019-03-20 09:15
+now date time: 2019-03-25 02:54
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:54, 2019-03-20 09:15
+now date time: 2019-03-25 02:55
+now date time: 2019-03-25 02:55
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:55, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:55, 2019-03-20 09:15
+now date time: 2019-03-25 02:56
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:56, 2019-03-20 09:15
+now date time: 2019-03-25 02:57
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:57, 2019-03-20 09:15
+now date time: 2019-03-25 02:58
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:58, 2019-03-20 09:15
+now date time: 2019-03-25 02:59
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 02:59, 2019-03-20 09:15
+now date time: 2019-03-25 03:00
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:00, 2019-03-20 09:15
+now date time: 2019-03-25 03:01
+now date time: 2019-03-25 03:01
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+A班上班
+测试
+now date time: 2019-03-25 03:01, 2019-03-20 09:15
+测试
+now date time: 2019-03-25 03:01, 2019-03-20 09:15
+now date time: 2019-03-25 03:02
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:02, 2019-03-20 09:15
+now date time: 2019-03-25 03:03
+now date time: 2019-03-25 03:03
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:03, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:03, 2019-03-20 09:15
+now date time: 2019-03-25 03:04
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:04, 2019-03-20 09:15
+now date time: 2019-03-25 03:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:05, 2019-03-20 09:15
+now date time: 2019-03-25 03:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:05, 2019-03-20 09:15
+now date time: 2019-03-25 03:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:05
+A班上班
+测试
+now date time: 2019-03-25 03:05, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:05, 2019-03-20 09:15
+now date time: 2019-03-25 03:06
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:06, 2019-03-20 09:15
+now date time: 2019-03-25 03:07
+now date time: 2019-03-25 03:07
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:07, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:07, 2019-03-20 09:15
+now date time: 2019-03-25 03:08
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:08
+now date time: 2019-03-25 03:08
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:08, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:08, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:08, 2019-03-20 09:15
+now date time: 2019-03-25 03:09
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:09, 2019-03-20 09:15
+now date time: 2019-03-25 03:10
+now date time: 2019-03-25 03:10
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:10, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:10, 2019-03-20 09:15
+now date time: 2019-03-25 03:11
+now date time: 2019-03-25 03:11
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:11, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:11, 2019-03-20 09:15
+now date time: 2019-03-25 03:12
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:12, 2019-03-20 09:15
+now date time: 2019-03-25 03:13
+now date time: 2019-03-25 03:13
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:13, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:13, 2019-03-20 09:15
+now date time: 2019-03-25 03:14
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:14, 2019-03-20 09:15
+now date time: 2019-03-25 03:15
+now date time: 2019-03-25 03:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:15, 2019-03-20 09:15
+now date time: 2019-03-25 03:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:15
+A班上班
+测试
+now date time: 2019-03-25 03:15, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:15, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:15, 2019-03-20 09:15
+now date time: 2019-03-25 03:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:16, 2019-03-20 09:15
+now date time: 2019-03-25 03:17
+now date time: 2019-03-25 03:17
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:17, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:17, 2019-03-20 09:15
+now date time: 2019-03-25 03:18
+now date time: 2019-03-25 03:18
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:18, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:18, 2019-03-20 09:15
+now date time: 2019-03-25 03:19
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:19, 2019-03-20 09:15
+now date time: 2019-03-25 03:20
+now date time: 2019-03-25 03:20
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:20, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:20, 2019-03-20 09:15
+now date time: 2019-03-25 03:21
+now date time: 2019-03-25 03:21
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:21, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:21, 2019-03-20 09:15
+now date time: 2019-03-25 03:22
+now date time: 2019-03-25 03:22
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:22, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:22, 2019-03-20 09:15
+now date time: 2019-03-25 03:23
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:23, 2019-03-20 09:15
+now date time: 2019-03-25 03:24
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:24, 2019-03-20 09:15
+now date time: 2019-03-25 03:25
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:25, 2019-03-20 09:15
+now date time: 2019-03-25 03:26
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:26
+A班上班
+测试
+now date time: 2019-03-25 03:26, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:26
+now date time: 2019-03-25 03:26
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:26, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:26, 2019-03-20 09:15
+now date time: 2019-03-25 03:26
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:26, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:26, 2019-03-20 09:15
+now date time: 2019-03-25 03:27
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:27, 2019-03-20 09:15
+now date time: 2019-03-25 03:28
+now date time: 2019-03-25 03:28
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:28, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:28, 2019-03-20 09:15
+now date time: 2019-03-25 03:28
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:28, 2019-03-20 09:15
+now date time: 2019-03-25 03:28
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:28, 2019-03-20 09:15
+now date time: 2019-03-25 03:29
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:29, 2019-03-20 09:15
+now date time: 2019-03-25 03:30
+now date time: 2019-03-25 03:30
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:30, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:30, 2019-03-20 09:15
+now date time: 2019-03-25 03:31
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:31, 2019-03-20 09:15
+now date time: 2019-03-25 03:32
+now date time: 2019-03-25 03:32
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:32, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:32, 2019-03-20 09:15
+now date time: 2019-03-25 03:32
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:32
+A班上班
+测试
+now date time: 2019-03-25 03:32, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:32, 2019-03-20 09:15
+now date time: 2019-03-25 03:33
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:33, 2019-03-20 09:15
+now date time: 2019-03-25 03:34
+now date time: 2019-03-25 03:34
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:34, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:34, 2019-03-20 09:15
+now date time: 2019-03-25 03:34
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:34, 2019-03-20 09:15
+now date time: 2019-03-25 03:34
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:34, 2019-03-20 09:15
+now date time: 2019-03-25 03:35
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:35, 2019-03-20 09:15
+now date time: 2019-03-25 03:36
+now date time: 2019-03-25 03:36
+now date time: 2019-03-25 03:36
+now date time: 2019-03-25 03:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:36, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:36, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:36, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:36, 2019-03-20 09:15
+now date time: 2019-03-25 03:37
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:37, 2019-03-20 09:15
+now date time: 2019-03-25 03:38
+now date time: 2019-03-25 03:38
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:38, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:38, 2019-03-20 09:15
+now date time: 2019-03-25 03:39
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:39, 2019-03-20 09:15
+now date time: 2019-03-25 03:39
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:39, 2019-03-20 09:15
+now date time: 2019-03-25 03:40
+now date time: 2019-03-25 03:40
+now date time: 2019-03-25 03:40
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:40, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:40, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:40, 2019-03-20 09:15
+now date time: 2019-03-25 03:41
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:41, 2019-03-20 09:15
+now date time: 2019-03-25 03:42
+now date time: 2019-03-25 03:42
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:42, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:42, 2019-03-20 09:15
+now date time: 2019-03-25 03:43
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:43, 2019-03-20 09:15
+now date time: 2019-03-25 03:44
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:44, 2019-03-20 09:15
+now date time: 2019-03-25 03:44
+now date time: 2019-03-25 03:44
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:44, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:44, 2019-03-20 09:15
+now date time: 2019-03-25 03:44
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:44, 2019-03-20 09:15
+now date time: 2019-03-25 03:45
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:45, 2019-03-20 09:15
+now date time: 2019-03-25 03:46
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:46
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:46, 2019-03-20 09:15
+now date time: 2019-03-25 03:46
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:46, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:46, 2019-03-20 09:15
+now date time: 2019-03-25 03:46
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:46, 2019-03-20 09:15
+now date time: 2019-03-25 03:47
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:47, 2019-03-20 09:15
+now date time: 2019-03-25 03:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:48, 2019-03-20 09:15
+now date time: 2019-03-25 03:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:48
+A班上班
+测试
+now date time: 2019-03-25 03:48, 2019-03-20 09:15
+now date time: 2019-03-25 03:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 03:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:48, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:48, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:48, 2019-03-20 09:15
+now date time: 2019-03-25 03:49
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:49, 2019-03-20 09:15
+now date time: 2019-03-25 03:50
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:50, 2019-03-20 09:15
+now date time: 2019-03-25 03:51
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:51, 2019-03-20 09:15
+now date time: 2019-03-25 03:52
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:52, 2019-03-20 09:15
+now date time: 2019-03-25 03:53
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:53, 2019-03-20 09:15
+now date time: 2019-03-25 03:54
+now date time: 2019-03-25 03:54
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:54, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 03:54, 2019-03-20 09:15
+now date time: 2019-03-25 03:55
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:55, 2019-03-20 09:15
+now date time: 2019-03-25 03:56
+now date time: 2019-03-25 03:56
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:56, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:56, 2019-03-20 09:15
+Not Found: /robots.txt
+[pid: 28964|app: 0|req: 2/9] 127.0.0.1 () {48 vars in 712 bytes} [Mon Mar 25 11:57:29 2019] GET /robots.txt => generated 2135 bytes in 39 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 28965|app: 0|req: 2/10] 127.0.0.1 () {48 vars in 696 bytes} [Mon Mar 25 11:57:33 2019] GET / => generated 21 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+now date time: 2019-03-25 03:57
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:57, 2019-03-20 09:15
+now date time: 2019-03-25 03:58
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:58, 2019-03-20 09:15
+now date time: 2019-03-25 03:59
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 03:59, 2019-03-20 09:15
+now date time: 2019-03-25 04:00
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:00, 2019-03-20 09:15
+now date time: 2019-03-25 04:01
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:01, 2019-03-20 09:15
+now date time: 2019-03-25 04:02
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:02, 2019-03-20 09:15
+now date time: 2019-03-25 04:03
+now date time: 2019-03-25 04:03
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:03, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:03, 2019-03-20 09:15
+now date time: 2019-03-25 04:04
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:04, 2019-03-20 09:15
+now date time: 2019-03-25 04:05
+now date time: 2019-03-25 04:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:05, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:05, 2019-03-20 09:15
+now date time: 2019-03-25 04:06
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:06, 2019-03-20 09:15
+now date time: 2019-03-25 04:07
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:07, 2019-03-20 09:15
+now date time: 2019-03-25 04:08
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:08, 2019-03-20 09:15
+now date time: 2019-03-25 04:09
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:09, 2019-03-20 09:15
+now date time: 2019-03-25 04:10
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:10, 2019-03-20 09:15
+now date time: 2019-03-25 04:10
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 04:10
+A班上班
+测试
+now date time: 2019-03-25 04:10, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:10, 2019-03-20 09:15
+now date time: 2019-03-25 04:10
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:10, 2019-03-20 09:15
+now date time: 2019-03-25 04:10
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:10, 2019-03-20 09:15
+now date time: 2019-03-25 04:11
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:11, 2019-03-20 09:15
+now date time: 2019-03-25 04:12
+now date time: 2019-03-25 04:12
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:12, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:12, 2019-03-20 09:15
+now date time: 2019-03-25 04:13
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:13, 2019-03-20 09:15
+now date time: 2019-03-25 04:14
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:14, 2019-03-20 09:15
+now date time: 2019-03-25 04:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:15, 2019-03-20 09:15
+now date time: 2019-03-25 04:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:16, 2019-03-20 09:15
+now date time: 2019-03-25 04:17
+now date time: 2019-03-25 04:17
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:17, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:17, 2019-03-20 09:15
+now date time: 2019-03-25 04:18
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:18, 2019-03-20 09:15
+now date time: 2019-03-25 04:19
+now date time: 2019-03-25 04:19
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+测试
+now date time: 2019-03-25 04:19, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 04:19, 2019-03-20 09:15
+now date time: 2019-03-25 04:19
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:19, 2019-03-20 09:15
+now date time: 2019-03-25 04:19
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:19, 2019-03-20 09:15
+now date time: 2019-03-25 04:20
+now date time: 2019-03-25 04:20
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:20, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:20, 2019-03-20 09:15
+now date time: 2019-03-25 04:21
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:21, 2019-03-20 09:15
+now date time: 2019-03-25 04:22
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:22, 2019-03-20 09:15
+now date time: 2019-03-25 04:23
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:23, 2019-03-20 09:15
+now date time: 2019-03-25 04:24
+now date time: 2019-03-25 04:24
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:24, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:24, 2019-03-20 09:15
+now date time: 2019-03-25 04:25
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:25, 2019-03-20 09:15
+now date time: 2019-03-25 04:25
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:25, 2019-03-20 09:15
+now date time: 2019-03-25 04:25
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:25, 2019-03-20 09:15
+now date time: 2019-03-25 04:26
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:26, 2019-03-20 09:15
+now date time: 2019-03-25 04:27
+now date time: 2019-03-25 04:27
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:27, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:27, 2019-03-20 09:15
+now date time: 2019-03-25 04:28
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:28, 2019-03-20 09:15
+now date time: 2019-03-25 04:29
+now date time: 2019-03-25 04:29
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:29, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:29, 2019-03-20 09:15
+now date time: 2019-03-25 04:30
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:30, 2019-03-20 09:15
+now date time: 2019-03-25 04:31
+now date time: 2019-03-25 04:31
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:31, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:31, 2019-03-20 09:15
+now date time: 2019-03-25 04:32
+now date time: 2019-03-25 04:32
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:32, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:32, 2019-03-20 09:15
+now date time: 2019-03-25 04:33
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:33, 2019-03-20 09:15
+now date time: 2019-03-25 04:34
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:34, 2019-03-20 09:15
+now date time: 2019-03-25 04:35
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:35, 2019-03-20 09:15
+now date time: 2019-03-25 04:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:36, 2019-03-20 09:15
+now date time: 2019-03-25 04:37
+now date time: 2019-03-25 04:37
+now date time: 2019-03-25 04:37
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:37, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:37, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:37, 2019-03-20 09:15
+now date time: 2019-03-25 04:38
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:38, 2019-03-20 09:15
+now date time: 2019-03-25 04:39
+now date time: 2019-03-25 04:39
+now date time: 2019-03-25 04:39
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:39, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:39, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:39, 2019-03-20 09:15
+now date time: 2019-03-25 04:40
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:40, 2019-03-20 09:15
+now date time: 2019-03-25 04:41
+now date time: 2019-03-25 04:41
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:41, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:41, 2019-03-20 09:15
+now date time: 2019-03-25 04:42
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:42, 2019-03-20 09:15
+now date time: 2019-03-25 04:43
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:43, 2019-03-20 09:15
+now date time: 2019-03-25 04:44
+now date time: 2019-03-25 04:44
+now date time: 2019-03-25 04:44
+now date time: 2019-03-25 04:44
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:44, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:44, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 04:44, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:44, 2019-03-20 09:15
+now date time: 2019-03-25 04:45
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:45, 2019-03-20 09:15
+now date time: 2019-03-25 04:46
+now date time: 2019-03-25 04:46
+now date time: 2019-03-25 04:46
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:46, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:46, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:46, 2019-03-20 09:15
+now date time: 2019-03-25 04:47
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:47, 2019-03-20 09:15
+now date time: 2019-03-25 04:48
+now date time: 2019-03-25 04:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:48, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:48, 2019-03-20 09:15
+now date time: 2019-03-25 04:49
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:49, 2019-03-20 09:15
+now date time: 2019-03-25 04:50
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:50, 2019-03-20 09:15
+now date time: 2019-03-25 04:50
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:50, 2019-03-20 09:15
+now date time: 2019-03-25 04:50
+now date time: 2019-03-25 04:50
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:50, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:50, 2019-03-20 09:15
+now date time: 2019-03-25 04:51
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:51, 2019-03-20 09:15
+now date time: 2019-03-25 04:52
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:52, 2019-03-20 09:15
+now date time: 2019-03-25 04:53
+now date time: 2019-03-25 04:53
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:53, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:53, 2019-03-20 09:15
+now date time: 2019-03-25 04:54
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:54, 2019-03-20 09:15
+now date time: 2019-03-25 04:55
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:55, 2019-03-20 09:15
+now date time: 2019-03-25 04:56
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:56, 2019-03-20 09:15
+now date time: 2019-03-25 04:57
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:57, 2019-03-20 09:15
+now date time: 2019-03-25 04:58
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:58, 2019-03-20 09:15
+now date time: 2019-03-25 04:59
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 04:59
+now date time: 2019-03-25 04:59
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:59, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 04:59, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 04:59, 2019-03-20 09:15
+now date time: 2019-03-25 05:00
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:00, 2019-03-20 09:15
+now date time: 2019-03-25 05:01
+now date time: 2019-03-25 05:01
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:01, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:01, 2019-03-20 09:15
+now date time: 2019-03-25 05:02
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:02, 2019-03-20 09:15
+now date time: 2019-03-25 05:03
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:03, 2019-03-20 09:15
+now date time: 2019-03-25 05:04
+now date time: 2019-03-25 05:04
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:04, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:04, 2019-03-20 09:15
+now date time: 2019-03-25 05:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:05, 2019-03-20 09:15
+now date time: 2019-03-25 05:06
+now date time: 2019-03-25 05:06
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:06, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:06, 2019-03-20 09:15
+now date time: 2019-03-25 05:07
+now date time: 2019-03-25 05:07
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:07, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 05:07, 2019-03-20 09:15
+now date time: 2019-03-25 05:08
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:08, 2019-03-20 09:15
+now date time: 2019-03-25 05:09
+now date time: 2019-03-25 05:09
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:09, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:09, 2019-03-20 09:15
+now date time: 2019-03-25 05:10
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:10, 2019-03-20 09:15
+now date time: 2019-03-25 05:11
+now date time: 2019-03-25 05:11
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:11, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:11, 2019-03-20 09:15
+now date time: 2019-03-25 05:12
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:12, 2019-03-20 09:15
+now date time: 2019-03-25 05:13
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:13, 2019-03-20 09:15
+now date time: 2019-03-25 05:14
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:14, 2019-03-20 09:15
+now date time: 2019-03-25 05:15
+now date time: 2019-03-25 05:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:15, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:15, 2019-03-20 09:15
+now date time: 2019-03-25 05:16
+now date time: 2019-03-25 05:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:16, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:16, 2019-03-20 09:15
+now date time: 2019-03-25 05:17
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:17, 2019-03-20 09:15
+now date time: 2019-03-25 05:18
+now date time: 2019-03-25 05:18
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:18, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:18, 2019-03-20 09:15
+now date time: 2019-03-25 05:19
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:19, 2019-03-20 09:15
+now date time: 2019-03-25 05:20
+now date time: 2019-03-25 05:20
+now date time: 2019-03-25 05:20
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:20, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 05:20, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:20, 2019-03-20 09:15
+now date time: 2019-03-25 05:21
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:21, 2019-03-20 09:15
+now date time: 2019-03-25 05:22
+now date time: 2019-03-25 05:22
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:22, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:22, 2019-03-20 09:15
+now date time: 2019-03-25 05:23
+now date time: 2019-03-25 05:23
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:23, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:23, 2019-03-20 09:15
+now date time: 2019-03-25 05:24
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 05:24
+A班上班
+测试
+now date time: 2019-03-25 05:24, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:24, 2019-03-20 09:15
+now date time: 2019-03-25 05:24
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:24, 2019-03-20 09:15
+now date time: 2019-03-25 05:25
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:25, 2019-03-20 09:15
+now date time: 2019-03-25 05:26
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:26, 2019-03-20 09:15
+now date time: 2019-03-25 05:27
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:27, 2019-03-20 09:15
+now date time: 2019-03-25 05:28
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:28, 2019-03-20 09:15
+now date time: 2019-03-25 05:29
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:29, 2019-03-20 09:15
+now date time: 2019-03-25 05:30
+now date time: 2019-03-25 05:30
+now date time: 2019-03-25 05:30
+now date time: 2019-03-25 05:30
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:30, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:30, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:30, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 05:30, 2019-03-20 09:15
+now date time: 2019-03-25 05:31
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:31, 2019-03-20 09:15
+now date time: 2019-03-25 05:32
+now date time: 2019-03-25 05:32
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:32, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:32, 2019-03-20 09:15
+now date time: 2019-03-25 05:33
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:33, 2019-03-20 09:15
+now date time: 2019-03-25 05:34
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:34, 2019-03-20 09:15
+now date time: 2019-03-25 05:35
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:35, 2019-03-20 09:15
+now date time: 2019-03-25 05:36
+now date time: 2019-03-25 05:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:36, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 05:36, 2019-03-20 09:15
+now date time: 2019-03-25 05:37
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:37, 2019-03-20 09:15
+now date time: 2019-03-25 05:38
+now date time: 2019-03-25 05:38
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+A班上班
+now date time: 2019-03-25 05:38, 2019-03-20 09:15
+测试
+now date time: 2019-03-25 05:38, 2019-03-20 09:15
+now date time: 2019-03-25 05:38
+now date time: 2019-03-25 05:38
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:38, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:38, 2019-03-20 09:15
+now date time: 2019-03-25 05:39
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:39, 2019-03-20 09:15
+now date time: 2019-03-25 05:40
+now date time: 2019-03-25 05:40
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:40, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:40, 2019-03-20 09:15
+now date time: 2019-03-25 05:41
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:41, 2019-03-20 09:15
+now date time: 2019-03-25 05:42
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:42, 2019-03-20 09:15
+now date time: 2019-03-25 05:43
+now date time: 2019-03-25 05:43
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:43, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:43, 2019-03-20 09:15
+now date time: 2019-03-25 05:44
+now date time: 2019-03-25 05:44
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:44, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 05:44, 2019-03-20 09:15
+now date time: 2019-03-25 05:45
+now date time: 2019-03-25 05:45
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+测试
+now date time: 2019-03-25 05:45, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 05:45, 2019-03-20 09:15
+now date time: 2019-03-25 05:45
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:45, 2019-03-20 09:15
+now date time: 2019-03-25 05:46
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:46, 2019-03-20 09:15
+now date time: 2019-03-25 05:47
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:47, 2019-03-20 09:15
+now date time: 2019-03-25 05:48
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:48, 2019-03-20 09:15
+now date time: 2019-03-25 05:49
+now date time: 2019-03-25 05:49
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+A班上班
+now date time: 2019-03-25 05:49, 2019-03-20 09:15
+测试
+now date time: 2019-03-25 05:49, 2019-03-20 09:15
+now date time: 2019-03-25 05:50
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:50, 2019-03-20 09:15
+now date time: 2019-03-25 05:51
+now date time: 2019-03-25 05:51
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:51, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:51, 2019-03-20 09:15
+now date time: 2019-03-25 05:52
+now date time: 2019-03-25 05:52
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:52, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:52, 2019-03-20 09:15
+now date time: 2019-03-25 05:53
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:53, 2019-03-20 09:15
+now date time: 2019-03-25 05:54
+now date time: 2019-03-25 05:54
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:54, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:54, 2019-03-20 09:15
+now date time: 2019-03-25 05:55
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:55, 2019-03-20 09:15
+now date time: 2019-03-25 05:56
+now date time: 2019-03-25 05:56
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:56, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 05:56, 2019-03-20 09:15
+now date time: 2019-03-25 05:56
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:56, 2019-03-20 09:15
+now date time: 2019-03-25 05:56
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:56, 2019-03-20 09:15
+now date time: 2019-03-25 05:57
+now date time: 2019-03-25 05:57
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:57, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:57, 2019-03-20 09:15
+now date time: 2019-03-25 05:58
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:58, 2019-03-20 09:15
+now date time: 2019-03-25 05:59
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 05:59, 2019-03-20 09:15
+now date time: 2019-03-25 06:00
+now date time: 2019-03-25 06:00
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:00, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:00, 2019-03-20 09:15
+now date time: 2019-03-25 06:01
+now date time: 2019-03-25 06:01
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:01, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:01, 2019-03-20 09:15
+now date time: 2019-03-25 06:02
+now date time: 2019-03-25 06:02
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:02, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 06:02, 2019-03-20 09:15
+now date time: 2019-03-25 06:03
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:03, 2019-03-20 09:15
+now date time: 2019-03-25 06:04
+now date time: 2019-03-25 06:04
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:04, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:04, 2019-03-20 09:15
+now date time: 2019-03-25 06:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:05, 2019-03-20 09:15
+now date time: 2019-03-25 06:06
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:06, 2019-03-20 09:15
+now date time: 2019-03-25 06:07
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:07, 2019-03-20 09:15
+now date time: 2019-03-25 06:08
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:08, 2019-03-20 09:15
+now date time: 2019-03-25 06:09
+now date time: 2019-03-25 06:09
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:09, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:09, 2019-03-20 09:15
+now date time: 2019-03-25 06:10
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:10, 2019-03-20 09:15
+now date time: 2019-03-25 06:11
+now date time: 2019-03-25 06:11
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:11, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:11, 2019-03-20 09:15
+now date time: 2019-03-25 06:12
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:12, 2019-03-20 09:15
+now date time: 2019-03-25 06:13
+now date time: 2019-03-25 06:13
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:13, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:13, 2019-03-20 09:15
+now date time: 2019-03-25 06:14
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:14, 2019-03-20 09:15
+now date time: 2019-03-25 06:15
+now date time: 2019-03-25 06:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:15, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 06:15, 2019-03-20 09:15
+now date time: 2019-03-25 06:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:16, 2019-03-20 09:15
+now date time: 2019-03-25 06:17
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:17, 2019-03-20 09:15
+now date time: 2019-03-25 06:18
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:18, 2019-03-20 09:15
+now date time: 2019-03-25 06:19
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:19, 2019-03-20 09:15
+now date time: 2019-03-25 06:20
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:20, 2019-03-20 09:15
+now date time: 2019-03-25 06:21
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:21, 2019-03-20 09:15
+now date time: 2019-03-25 06:22
+now date time: 2019-03-25 06:22
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:22, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:22, 2019-03-20 09:15
+now date time: 2019-03-25 06:23
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+now date time: 2019-03-25 06:23
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 06:23
+A班上班
+测试
+now date time: 2019-03-25 06:23, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:23, 2019-03-20 09:15
+测试
+now date time: 2019-03-25 06:23, 2019-03-20 09:15
+now date time: 2019-03-25 06:24
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:24, 2019-03-20 09:15
+now date time: 2019-03-25 06:25
+now date time: 2019-03-25 06:25
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:25, 2019-03-20 09:15
+A班上班
+测试
+now date time: 2019-03-25 06:25, 2019-03-20 09:15
+now date time: 2019-03-25 06:26
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:26, 2019-03-20 09:15
+now date time: 2019-03-25 06:27
+now date time: 2019-03-25 06:27
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:27, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:27, 2019-03-20 09:15
+now date time: 2019-03-25 06:28
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:28, 2019-03-20 09:15
+[pid: 28961|app: 0|req: 3/11] 127.0.0.1 () {58 vars in 1248 bytes} [Mon Mar 25 14:29:31 2019] GET / => generated 21 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 28963|app: 0|req: 3/12] 127.0.0.1 () {50 vars in 1083 bytes} [Mon Mar 25 14:29:34 2019] GET /favicon.ico => generated 2138 bytes in 46 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 28962|app: 0|req: 3/13] 127.0.0.1 () {54 vars in 1304 bytes} [Mon Mar 25 14:29:37 2019] GET /admin/ => generated 0 bytes in 11 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 28964|app: 0|req: 3/14] 127.0.0.1 () {54 vars in 1341 bytes} [Mon Mar 25 14:29:38 2019] GET /admin/login/?next=/admin/ => generated 1821 bytes in 217 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+now date time: 2019-03-25 06:29
+now date time: 2019-03-25 06:29
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:29, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:29, 2019-03-20 09:15
+[pid: 28965|app: 0|req: 3/15] 127.0.0.1 () {64 vars in 1548 bytes} [Mon Mar 25 14:29:55 2019] POST /admin/login/?next=/admin/ => generated 1957 bytes in 312 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 28961|app: 0|req: 4/16] 127.0.0.1 () {64 vars in 1548 bytes} [Mon Mar 25 14:30:11 2019] POST /admin/login/?next=/admin/ => generated 0 bytes in 243 msecs (HTTP/1.1 302) 9 headers in 559 bytes (1 switches on core 0)
+[pid: 28963|app: 0|req: 4/17] 127.0.0.1 () {58 vars in 1445 bytes} [Mon Mar 25 14:30:12 2019] GET /admin/ => generated 9530 bytes in 124 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 28962|app: 0|req: 4/18] 127.0.0.1 () {54 vars in 1094 bytes} [Mon Mar 25 14:30:25 2019] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 28964|app: 0|req: 4/19] 127.0.0.1 () {52 vars in 931 bytes} [Mon Mar 25 14:30:25 2019] GET /favicon.ico => generated 2138 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+now date time: 2019-03-25 06:30
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:30, 2019-03-20 09:15
+[pid: 28965|app: 0|req: 4/20] 127.0.0.1 () {54 vars in 1130 bytes} [Mon Mar 25 14:31:22 2019] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 28961|app: 0|req: 5/21] 127.0.0.1 () {54 vars in 1132 bytes} [Mon Mar 25 14:31:22 2019] GET /admin/ => generated 9530 bytes in 145 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 28963|app: 0|req: 5/22] 127.0.0.1 () {54 vars in 1069 bytes} [Mon Mar 25 14:31:25 2019] GET / => generated 21 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Not Found: /schedule
+[pid: 28962|app: 0|req: 5/23] 127.0.0.1 () {52 vars in 1038 bytes} [Mon Mar 25 14:31:42 2019] GET /schedule => generated 2129 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+now date time: 2019-03-25 06:31
+now date time: 2019-03-25 06:31
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:31, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:31, 2019-03-20 09:15
+Not Found: /schedule、
+[pid: 28964|app: 0|req: 5/24] 127.0.0.1 () {52 vars in 1050 bytes} [Mon Mar 25 14:32:00 2019] GET /schedule%E3%80%81 => generated 2144 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /schedules
+[pid: 28965|app: 0|req: 5/25] 127.0.0.1 () {52 vars in 1040 bytes} [Mon Mar 25 14:32:06 2019] GET /schedules => generated 2132 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+now date time: 2019-03-25 06:32
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:32, 2019-03-20 09:15
+now date time: 2019-03-25 06:33
+now date time: 2019-03-25 06:33
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:33, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:33, 2019-03-20 09:15
+now date time: 2019-03-25 06:34
+now date time: 2019-03-25 06:34
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:34, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:34, 2019-03-20 09:15
+now date time: 2019-03-25 06:35
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:35, 2019-03-20 09:15
+now date time: 2019-03-25 06:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:36, 2019-03-20 09:15
+now date time: 2019-03-25 06:36
+now date time: 2019-03-25 06:36
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:36, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:36, 2019-03-20 09:15
+now date time: 2019-03-25 06:37
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:37, 2019-03-20 09:15
+now date time: 2019-03-25 06:38
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:38, 2019-03-20 09:15
+now date time: 2019-03-25 06:39
+now date time: 2019-03-25 06:39
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:39, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:39, 2019-03-20 09:15
+now date time: 2019-03-25 06:40
+now date time: 2019-03-25 06:40
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+A班上班
+now date time: 2019-03-25 06:40, 2019-03-20 09:15
+测试
+now date time: 2019-03-25 06:40, 2019-03-20 09:15
+now date time: 2019-03-25 06:41
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:41, 2019-03-20 09:15
+now date time: 2019-03-25 06:41
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:41, 2019-03-20 09:15
+now date time: 2019-03-25 06:41
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:41, 2019-03-20 09:15
+now date time: 2019-03-25 06:42
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:42, 2019-03-20 09:15
+now date time: 2019-03-25 06:43
+now date time: 2019-03-25 06:43
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:43, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:43, 2019-03-20 09:15
+now date time: 2019-03-25 06:44
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:44, 2019-03-20 09:15
+now date time: 2019-03-25 06:45
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:45, 2019-03-20 09:15
+now date time: 2019-03-25 06:46
+now date time: 2019-03-25 06:46
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:46, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:46, 2019-03-20 09:15
+now date time: 2019-03-25 06:47
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:47, 2019-03-20 09:15
+Mon Mar 25 14:47:53 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:47:53 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:47:53 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:47:53 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:47:53 2019 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 25 14:48:26 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 21 March 2019 06:56:07
+os: Linux-4.19.5-1.el7.elrepo.x86_64 #1 SMP Tue Nov 27 12:40:57 EST 2018
+nodename: host.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/workspace/gamutsoft
+writing pidfile to /usr/local/workspace/gamutsoft/uwsgi.pid
+detected binary path: /usr/local/python/envpy3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3915
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8088 fd 3
+uwsgi socket 0 bound to UNIX address /usr/local/workspace/gamutsoft/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Mar 19 2019, 17:14:02)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1033a50
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1033a50 pid: 29535 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 29535)
+spawned uWSGI worker 1 (pid: 29537, cores: 1)
+spawned uWSGI worker 2 (pid: 29538, cores: 1)
+spawned uWSGI worker 3 (pid: 29539, cores: 1)
+spawned uWSGI worker 4 (pid: 29540, cores: 1)
+spawned uWSGI worker 5 (pid: 29541, cores: 1)
+spawned uWSGI http 1 (pid: 29542)
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/core/handlers/base.py", line 111, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/urls/resolvers.py", line 491, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/python/envpy3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./dingding/urls.py", line 22, in <module>
+    path('', include('schedule.urls')),
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/python/envpy3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./schedule/urls.py", line 17, in <module>
+    from schedule import views
+  File "./schedule/views.py", line 3, in <module>
+    import xlrd
+ModuleNotFoundError: No module named 'xlrd'
+[pid: 29537|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 1349 bytes} [Mon Mar 25 14:49:06 2019] GET /admin/ => generated 148698 bytes in 370 msecs (HTTP/1.1 500) 4 headers in 201 bytes (1 switches on core 0)
+Mon Mar 25 14:49:34 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:49:34 2019 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:49:34 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:49:34 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:49:34 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 25 14:49:38 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 21 March 2019 06:56:07
+os: Linux-4.19.5-1.el7.elrepo.x86_64 #1 SMP Tue Nov 27 12:40:57 EST 2018
+nodename: host.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/workspace/gamutsoft
+writing pidfile to /usr/local/workspace/gamutsoft/uwsgi.pid
+detected binary path: /usr/local/python/envpy3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3915
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8088 fd 3
+uwsgi socket 0 bound to UNIX address /usr/local/workspace/gamutsoft/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Mar 19 2019, 17:14:02)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x103fa50
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x103fa50 pid: 29552 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 29552)
+spawned uWSGI worker 1 (pid: 29554, cores: 1)
+spawned uWSGI worker 2 (pid: 29555, cores: 1)
+spawned uWSGI worker 3 (pid: 29556, cores: 1)
+spawned uWSGI worker 4 (pid: 29557, cores: 1)
+spawned uWSGI worker 5 (pid: 29558, cores: 1)
+spawned uWSGI http 1 (pid: 29559)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/core/handlers/base.py", line 111, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/urls/resolvers.py", line 491, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/python/envpy3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./dingding/urls.py", line 22, in <module>
+    path('', include('schedule.urls')),
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/python/envpy3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./schedule/urls.py", line 17, in <module>
+    from schedule import views
+  File "./schedule/views.py", line 194, in <module>
+    from rest_framework import viewsets
+ModuleNotFoundError: No module named 'rest_framework'
+[pid: 29554|app: 0|req: 1/1] 127.0.0.1 () {56 vars in 1336 bytes} [Mon Mar 25 14:49:41 2019] GET /admin/ => generated 155085 bytes in 820 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 0)
+Mon Mar 25 14:50:16 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:50:16 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:50:16 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:50:16 2019 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:50:16 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 25 14:50:19 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 21 March 2019 06:56:07
+os: Linux-4.19.5-1.el7.elrepo.x86_64 #1 SMP Tue Nov 27 12:40:57 EST 2018
+nodename: host.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/workspace/gamutsoft
+writing pidfile to /usr/local/workspace/gamutsoft/uwsgi.pid
+detected binary path: /usr/local/python/envpy3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3915
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8088 fd 3
+uwsgi socket 0 bound to UNIX address /usr/local/workspace/gamutsoft/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Mar 19 2019, 17:14:02)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1216a50
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1216a50 pid: 29581 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 29581)
+spawned uWSGI worker 1 (pid: 29583, cores: 1)
+spawned uWSGI worker 2 (pid: 29584, cores: 1)
+spawned uWSGI worker 3 (pid: 29585, cores: 1)
+spawned uWSGI worker 4 (pid: 29586, cores: 1)
+spawned uWSGI worker 5 (pid: 29587, cores: 1)
+spawned uWSGI http 1 (pid: 29588)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 14:50:21.406229) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 14:50:21.406307) while time zone support is active.
+  RuntimeWarning)
+[pid: 29583|app: 0|req: 1/1] 127.0.0.1 () {56 vars in 1336 bytes} [Mon Mar 25 14:50:20 2019] GET /admin/ => generated 0 bytes in 695 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 14:50:22.643880) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 14:50:22.643927) while time zone support is active.
+  RuntimeWarning)
+[pid: 29584|app: 0|req: 1/2] 127.0.0.1 () {56 vars in 1373 bytes} [Mon Mar 25 14:50:22 2019] GET /admin/login/?next=/admin/ => generated 1821 bytes in 726 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 14:50:25.950037) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 14:50:25.950083) while time zone support is active.
+  RuntimeWarning)
+[pid: 29587|app: 0|req: 1/3] 127.0.0.1 () {56 vars in 1373 bytes} [Mon Mar 25 14:50:25 2019] GET /admin/login/?next=/admin/ => generated 1821 bytes in 771 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 14:50:42.293014) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 14:50:42.293062) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 14:50:42.300004) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 14:50:42.300023) while time zone support is active.
+  RuntimeWarning)
+[pid: 29585|app: 0|req: 1/4] 127.0.0.1 () {54 vars in 1309 bytes} [Mon Mar 25 14:50:41 2019] GET /schedule => generated 6508 bytes in 666 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+now date time: 2019-03-25 06:51
+now date time: 2019-03-25 06:51
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 06:51
+A班上班
+测试
+now date time: 2019-03-25 06:51, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:51, 2019-03-20 09:15
+now date time: 2019-03-25 06:51
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:51, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:51, 2019-03-20 09:15
+now date time: 2019-03-25 06:52
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:52, 2019-03-20 09:15
+now date time: 2019-03-25 06:53
+now date time: 2019-03-25 06:53
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:53, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 06:53
+A班上班
+测试
+now date time: 2019-03-25 06:53, 2019-03-20 09:15
+now date time: 2019-03-25 06:53
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:53, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:53, 2019-03-20 09:15
+now date time: 2019-03-25 06:54
+now date time: 2019-03-25 06:54
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:54, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:54, 2019-03-20 09:15
+now date time: 2019-03-25 06:55
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:55, 2019-03-20 09:15
+Mon Mar 25 14:55:57 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:55:57 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:55:57 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:55:57 2019 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 25 14:55:57 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 25 14:56:11 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 21 March 2019 06:56:07
+os: Linux-4.19.5-1.el7.elrepo.x86_64 #1 SMP Tue Nov 27 12:40:57 EST 2018
+nodename: host.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/workspace/gamutsoft
+writing pidfile to /usr/local/workspace/gamutsoft/uwsgi.pid
+detected binary path: /usr/local/python/envpy3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3915
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8088 fd 3
+uwsgi socket 0 bound to UNIX address /usr/local/workspace/gamutsoft/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Mar 19 2019, 17:14:02)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1771a50
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1771a50 pid: 29618 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 29618)
+spawned uWSGI worker 1 (pid: 29620, cores: 1)
+spawned uWSGI worker 2 (pid: 29621, cores: 1)
+spawned uWSGI worker 3 (pid: 29622, cores: 1)
+spawned uWSGI worker 4 (pid: 29623, cores: 1)
+spawned uWSGI worker 5 (pid: 29624, cores: 1)
+spawned uWSGI http 1 (pid: 29625)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 14:57:24.299461) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 14:57:24.299516) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 14:57:24.303097) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 14:57:24.303138) while time zone support is active.
+  RuntimeWarning)
+[pid: 29620|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 1242 bytes} [Mon Mar 25 14:57:23 2019] GET / => generated 6508 bytes in 706 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 14:57:39.331758) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 14:57:39.331811) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 14:57:39.335369) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 14:57:39.335382) while time zone support is active.
+  RuntimeWarning)
+[pid: 29621|app: 0|req: 1/2] 127.0.0.1 () {56 vars in 1273 bytes} [Mon Mar 25 14:57:38 2019] GET / => generated 6508 bytes in 622 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+now date time: 2019-03-25 06:58
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 06:58
+A班上班
+测试
+now date time: 2019-03-25 06:58, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:58, 2019-03-20 09:15
+now date time: 2019-03-25 06:59
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 06:59, 2019-03-20 09:15
+now date time: 2019-03-25 07:00
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:00, 2019-03-20 09:15
+now date time: 2019-03-25 07:01
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:01, 2019-03-20 09:15
+now date time: 2019-03-25 07:02
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:02, 2019-03-20 09:15
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 29625)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /usr/local/workspace/gamutsoft/uwsgi.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 25 15:03:00 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 21 March 2019 06:56:07
+os: Linux-4.19.5-1.el7.elrepo.x86_64 #1 SMP Tue Nov 27 12:40:57 EST 2018
+nodename: host.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/workspace/gamutsoft
+writing pidfile to /usr/local/workspace/gamutsoft/uwsgi.pid
+detected binary path: /usr/local/python/envpy3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3915
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8088 fd 3
+uwsgi socket 0 bound to UNIX address /usr/local/workspace/gamutsoft/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.5 (default, Mar 19 2019, 17:14:02)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1733a50
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1733a50 pid: 29656 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 29656)
+spawned uWSGI worker 1 (pid: 29658, cores: 1)
+spawned uWSGI worker 2 (pid: 29659, cores: 1)
+spawned uWSGI worker 3 (pid: 29660, cores: 1)
+spawned uWSGI worker 4 (pid: 29661, cores: 1)
+spawned uWSGI worker 5 (pid: 29662, cores: 1)
+spawned uWSGI http 1 (pid: 29663)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 15:03:07.111769) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 15:03:07.111832) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 00:00:00) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[pid: 29658|app: 0|req: 1/1] 127.0.0.1 () {56 vars in 1325 bytes} [Mon Mar 25 15:03:06 2019] GET / => generated 5773 bytes in 710 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 15:03:12.213337) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 15:03:12.213388) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 00:00:00) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[pid: 29659|app: 0|req: 1/2] 127.0.0.1 () {56 vars in 1325 bytes} [Mon Mar 25 15:03:11 2019] GET / => generated 5773 bytes in 621 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Job with id schedule.views.recount_job already in jobstore. I'll refresh it
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 15:03:15.014006) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 15:03:15.014065) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-25 00:00:00) while time zone support is active.
+  RuntimeWarning)
+/usr/local/python/envpy3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField Schedule.start_time received a naive datetime (2019-03-26 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[pid: 29662|app: 0|req: 1/3] 127.0.0.1 () {56 vars in 1325 bytes} [Mon Mar 25 15:03:14 2019] GET / => generated 5773 bytes in 669 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+now date time: 2019-03-25 07:04
+now date time: 2019-03-25 07:04
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:04, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:04, 2019-03-20 09:15
+now date time: 2019-03-25 07:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:05, 2019-03-20 09:15
+now date time: 2019-03-25 07:05
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:05, 2019-03-20 09:15
+now date time: 2019-03-25 07:06
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:06, 2019-03-20 09:15
+now date time: 2019-03-25 07:07
+now date time: 2019-03-25 07:07
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:07, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:07, 2019-03-20 09:15
+now date time: 2019-03-25 07:07
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:07, 2019-03-20 09:15
+now date time: 2019-03-25 07:08
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:08, 2019-03-20 09:15
+now date time: 2019-03-25 07:09
+now date time: 2019-03-25 07:09
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:09, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:09, 2019-03-20 09:15
+now date time: 2019-03-25 07:10
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:10, 2019-03-20 09:15
+now date time: 2019-03-25 07:11
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:11, 2019-03-20 09:15
+now date time: 2019-03-25 07:12
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+now date time: 2019-03-25 07:12
+A班上班
+测试
+now date time: 2019-03-25 07:12, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:12, 2019-03-20 09:15
+now date time: 2019-03-25 07:13
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:13, 2019-03-20 09:15
+now date time: 2019-03-25 07:14
+now date time: 2019-03-25 07:14
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:14, 2019-03-20 09:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:14, 2019-03-20 09:15
+now date time: 2019-03-25 07:15
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:15, 2019-03-20 09:15
+now date time: 2019-03-25 07:16
+<QuerySet [<Shift: Shift is A班上班>, <Shift: Shift is 测试>]>
+A班上班
+测试
+now date time: 2019-03-25 07:16, 2019-03-20 09:15
+Unable to restore job "4" -- removing it
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/util.py", line 289, in ref_to_obj
+    obj = getattr(obj, name)
+AttributeError: module 'schedule.views' has no attribute 'schedule_job'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django_apscheduler/jobstores.py", line 155, in _get_jobs
+    jobs.append(self._reconstitute_job(job_state))
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django_apscheduler/jobstores.py", line 144, in _reconstitute_job
+    job.__setstate__(job_state)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/job.py", line 272, in __setstate__
+    self.func = ref_to_obj(self.func_ref)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/util.py", line 292, in ref_to_obj
+    raise LookupError('Error resolving reference %s: error looking up object' % ref)
+LookupError: Error resolving reference schedule.views:schedule_job: error looking up object
+Remove bad jobs: {4}
+Unable to restore job "4" -- removing it
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/util.py", line 289, in ref_to_obj
+    obj = getattr(obj, name)
+AttributeError: module 'schedule.views' has no attribute 'schedule_job'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django_apscheduler/jobstores.py", line 155, in _get_jobs
+    jobs.append(self._reconstitute_job(job_state))
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django_apscheduler/jobstores.py", line 144, in _reconstitute_job
+    job.__setstate__(job_state)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/job.py", line 272, in __setstate__
+    self.func = ref_to_obj(self.func_ref)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/util.py", line 292, in ref_to_obj
+    raise LookupError('Error resolving reference %s: error looking up object' % ref)
+LookupError: Error resolving reference schedule.views:schedule_job: error looking up object
+Remove bad jobs: {4}
+Unable to restore job "5" -- removing it
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/util.py", line 289, in ref_to_obj
+    obj = getattr(obj, name)
+AttributeError: module 'schedule.views' has no attribute 'schedule_job'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django_apscheduler/jobstores.py", line 155, in _get_jobs
+    jobs.append(self._reconstitute_job(job_state))
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django_apscheduler/jobstores.py", line 144, in _reconstitute_job
+    job.__setstate__(job_state)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/job.py", line 272, in __setstate__
+    self.func = ref_to_obj(self.func_ref)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/util.py", line 292, in ref_to_obj
+    raise LookupError('Error resolving reference %s: error looking up object' % ref)
+LookupError: Error resolving reference schedule.views:schedule_job: error looking up object
+Remove bad jobs: {5}
+Unable to restore job "5" -- removing it
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/util.py", line 289, in ref_to_obj
+    obj = getattr(obj, name)
+AttributeError: module 'schedule.views' has no attribute 'schedule_job'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django_apscheduler/jobstores.py", line 155, in _get_jobs
+    jobs.append(self._reconstitute_job(job_state))
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/django_apscheduler/jobstores.py", line 144, in _reconstitute_job
+    job.__setstate__(job_state)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/job.py", line 272, in __setstate__
+    self.func = ref_to_obj(self.func_ref)
+  File "/usr/local/python/envpy3/lib/python3.6/site-packages/apscheduler/util.py", line 292, in ref_to_obj
+    raise LookupError('Error resolving reference %s: error looking up object' % ref)
+LookupError: Error resolving reference schedule.views:schedule_job: error looking up object
+Remove bad jobs: {5}
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 29663)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /usr/local/workspace/gamutsoft/uwsgi.sock removed.
